@@ -170,6 +170,9 @@ button:focus-visible {
   align-items: center;
   gap: 4rem;
   padding-block: 6rem 8rem;
+  background:
+    linear-gradient(rgba(8, 7, 19, 0.76), rgba(8, 7, 19, 0.76)),
+    url("img/hero.jpg") center / cover no-repeat;
 }
 
 .hero-copy {
