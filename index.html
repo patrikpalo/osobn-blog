@@ -3,33 +3,132 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Moje portfólio — začiatok</title>
-  <!-- Vzhľad stránky je v samostatnom súbore styles.css (vrstva CSS) -->
+  <meta name="theme-color" content="#080713">
+  <meta name="description" content="Osobné portfólio: projekty, nápady a digitálna tvorba.">
+  <title>Tvoje meno — portfólio</title>
   <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
+  <a class="skip-link" href="#obsah">Preskočiť na obsah</a>
+  <header class="site-header">
+    <a class="wordmark" href="#domov" aria-label="Tvoje meno, domov">
+      <span class="wordmark-mark" aria-hidden="true">T.</span>
+      <span>TVOJE MENO<span class="wordmark-dot">.</span></span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Otvoriť navigáciu">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Hlavná navigácia">
+      <a href="#projekty">Projekty</a>
+      <a href="#o-mne">O mne</a>
+      <a class="nav-contact" href="#kontakt">Kontakt <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
 
-  <main class="uvitanie">
-    <div class="emoji">👋</div>
-    <h1>Tu vznikne moje portfólio</h1>
-    <p class="podtext">
-      Toto je štartová stránka kurzu <strong>Tvorba webstránok</strong>.
-      Odteraz ju budeš meniť ty — s pomocou AI asistenta.
-    </p>
+  <main id="obsah">
+    <section class="hero section-wrap" id="domov" aria-labelledby="hero-title">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> Osobné portfólio <span class="eyebrow-year">/ 2026</span></p>
+        <h1 id="hero-title">Ahoj, som<br><span class="hero-name">Tvoje meno<span class="accent">.</span></span></h1>
+        <div class="hero-bottom">
+          <p class="hero-description">Tvorím digitálne veci s nápadom, charakterom a dôrazom na detail.</p>
+          <a class="button button-primary" href="#projekty">Pozrieť projekty <span aria-hidden="true">↓</span></a>
+        </div>
+      </div>
+      <div class="hero-art reveal" aria-label="Vizuálny podpis portfólia">
+        <div class="art-grid" aria-hidden="true"></div>
+        <span class="art-index">01</span>
+        <span class="art-cross art-cross-one" aria-hidden="true">+</span>
+        <span class="art-cross art-cross-two" aria-hidden="true">+</span>
+        <div class="art-caption"><span>TVORBA S VLASTNÝM PODPISOM</span><span>SK / ONLINE</span></div>
+        <div class="art-line" aria-hidden="true"></div>
+      </div>
+      <a class="scroll-cue" href="#projekty"><span class="scroll-line" aria-hidden="true"></span> POSÚŇ SA NIŽŠIE</a>
+    </section>
 
-    <div class="karta">
-      <p class="karta-nadpis">Ako začať:</p>
-      <ol>
-        <li>Otvor <strong>Copilot Chat</strong> (ikona Copilota vpravo) — sem píšeš, čo chceš vytvoriť.</li>
-        <li>Tento súbor <code>index.html</code> si pozri v <strong>živom náhľade</strong>: pravý klik naň → <em>Show Preview</em>.</li>
-        <li>Choď na <strong>Blok 7</strong> kurzu a postupuj podľa neho.</li>
-      </ol>
-    </div>
+    <section class="projects section-wrap" id="projekty" aria-labelledby="projects-title">
+      <div class="section-heading reveal">
+        <div>
+          <p class="eyebrow">VÝBER Z TVORBY <span class="eyebrow-year">/ 01—03</span></p>
+          <h2 id="projects-title">Projekty<span class="accent">.</span></h2>
+        </div>
+        <p class="section-note">Nápady, ktoré dostali svoju<br>vlastnú digitálnu podobu.</p>
+      </div>
 
-    <p class="poznamka">
-      Keď spravíš prvú zmenu, tento text pokojne zmaž — je len na úvod.
-    </p>
+      <div class="project-grid">
+        <article class="project-card reveal">
+          <a class="project-link" href="#kontakt" aria-label="Viac o projekte Nočný signál">
+            <div class="project-visual visual-signal" aria-hidden="true">
+              <span class="visual-label">DIGITÁLNA KAMPAŇ / 2025</span>
+              <span class="signal-word">SIGNÁL</span>
+              <span class="signal-orbit"></span>
+              <span class="visual-index">01</span>
+            </div>
+            <div class="project-meta"><span>01 / KREATÍVNY KONCEPT</span><span>↗</span></div>
+            <h3>Nočný signál</h3>
+            <p>Vizuálna identita pre kultúrny priestor po zotmení.</p>
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-link" href="#kontakt" aria-label="Viac o projekte Forma">
+            <div class="project-visual visual-form" aria-hidden="true">
+              <span class="visual-label">ONLINE OBCHOD / 2025</span>
+              <span class="form-shape form-shape-one"></span>
+              <span class="form-shape form-shape-two"></span>
+              <span class="form-word">FORMA<span>.</span></span>
+              <span class="visual-index">02</span>
+            </div>
+            <div class="project-meta"><span>02 / WEBOVÝ DIZAJN</span><span>↗</span></div>
+            <h3>Forma</h3>
+            <p>Priestor pre objekty, ktoré robia každodennosť krajšou.</p>
+          </a>
+        </article>
+
+        <article class="project-card reveal">
+          <a class="project-link" href="#kontakt" aria-label="Viac o projekte Tempo">
+            <div class="project-visual visual-tempo" aria-hidden="true">
+              <span class="visual-label">HUDOBNÁ APLIKÁCIA / 2024</span>
+              <span class="tempo-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></span>
+              <span class="tempo-word">nájdi<br>svoje<br><b>tempo.</b></span>
+              <span class="visual-index">03</span>
+            </div>
+            <div class="project-meta"><span>03 / PRODUKTOVÝ DIZAJN</span><span>↗</span></div>
+            <h3>Tempo</h3>
+            <p>Hudobný objavovač, ktorý sa naladí na tvoju náladu.</p>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section-wrap" id="o-mne" aria-labelledby="about-title">
+      <div class="about-index reveal"><span>02</span><span class="index-rule"></span><span>O MNE</span></div>
+      <div class="about-copy reveal">
+        <p class="eyebrow">ZA NÁPADMI JE ČLOVEK</p>
+        <h2 id="about-title">Zvedavosť je môj<br><span class="muted-heading">obľúbený nástroj.</span></h2>
+        <p class="about-text">Som tvorivý človek, ktorého baví premieňať dobré nápady na premyslené weby a digitálne zážitky. Verím v jednoduché riešenia, odvážne detaily a spoluprácu, pri ktorej sa stále niečo nové učím.</p>
+        <a class="text-link" href="#kontakt">Porozprávajme sa <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="about-side reveal">
+        <span class="side-mark" aria-hidden="true">T<span>.</span></span>
+        <p>IDEA<br><span>→</span> TVAR<br><span>→</span> ZÁŽITOK</p>
+      </div>
+    </section>
+
+    <footer class="site-footer section-wrap" id="kontakt">
+      <div class="footer-main reveal">
+        <p class="eyebrow">MÁŠ NÁPAD? MÁM ČAS.</p>
+        <h2>Poďme niečo<br>vymyslieť<span class="accent">.</span></h2>
+        <a class="button button-outline" href="mailto:ahoj@example.com">ahoj@example.com <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="footer-bottom">
+        <a class="wordmark footer-wordmark" href="#domov"><span class="wordmark-mark" aria-hidden="true">T.</span><span>TVOJE MENO<span class="wordmark-dot">.</span></span></a>
+        <p>Navrhnuté s rozumom a trochou zvedavosti.</p>
+        <a class="back-top" href="#domov">SPÄŤ NAHOR <span aria-hidden="true">↑</span></a>
+        <span class="copyright">© <span id="current-year">2026</span></span>
+      </div>
+    </footer>
   </main>
-
 </body>
 </html>
