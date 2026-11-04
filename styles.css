@@ -315,15 +315,14 @@ h1 {
   mask-image: linear-gradient(135deg, transparent 5%, black 70%);
 }
 
-.art-index {
+.hero-illustration {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  color: var(--paper);
-  font-family: var(--display);
-  font-size: clamp(8rem, 19vw, 16rem);
-  line-height: 0.8;
-  transform: translate(-50%, -50%);
+  top: 12%;
+  right: 8%;
+  width: clamp(150px, 22vw, 260px);
+  height: auto;
+  opacity: 0.72;
+  pointer-events: none;
 }
 
 .art-cross {
@@ -978,10 +977,6 @@ h2 {
 
   .hero-art {
     min-height: 280px;
-  }
-
-  .art-index {
-    font-size: 10rem;
   }
 
   .scroll-cue {
