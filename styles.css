@@ -973,6 +973,7 @@ h2 {
   h1 {
     margin-bottom: 1.7rem;
     font-size: clamp(4rem, 17vw, 6.5rem);
+    line-height: 0.95;
   }
 
   .hero-bottom {
@@ -1014,6 +1015,11 @@ h2 {
 
   h2 {
     font-size: 4rem;
+  }
+
+  .about-copy h2,
+  .footer-main h2 {
+    line-height: 1.05;
   }
 
   .section-note br {
