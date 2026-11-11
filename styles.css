@@ -656,11 +656,16 @@ h2 {
 
 .about-copy h2 {
   font-size: clamp(2.8rem, 5.3vw, 5rem);
-  line-height: 0.96;
+  line-height: 1.16;
 }
 
 .muted-heading {
   color: var(--muted);
+}
+
+.about-title-line {
+  display: inline-block;
+  white-space: nowrap;
 }
 
 .about-text {
@@ -1017,7 +1022,6 @@ h2 {
     font-size: 4rem;
   }
 
-  .about-copy h2,
   .footer-main h2 {
     line-height: 1.05;
   }
@@ -1070,7 +1074,7 @@ h2 {
   }
 
   .about-copy h2 {
-    font-size: clamp(2.8rem, 12vw, 4.3rem);
+    font-size: clamp(2rem, 8.6vw, 3.3rem);
   }
 
   .site-footer {
