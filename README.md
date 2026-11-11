@@ -1,26 +1,21 @@
-# Moje portfólio — začiatok 👋
+# Patrik — osobné portfólio
 
-Vitaj! Toto je tvoj štartový projekt pre predmet **Návrh a tvorba webových stránok**. Máš tu pripravené všetko, čo potrebuješ — nič neinštaluješ.
-
-## Ako začať
-
-1. **Spusti si prostredie.** Ak čítaš toto priamo na GitHube, klikni zelené tlačidlo **`< > Code`** → záložka **Codespaces** → **Create codespace on main**. Po chvíli sa otvorí VS Code v prehliadači.
-2. **Otvor AI asistenta.** Vpravo klikni na ikonu **Copilot Chat** — sem budeš písať, čo chceš vytvoriť.
-3. **Pozri si svoj web.** Klikni pravým tlačidlom na súbor `index.html` → **Show Preview** (alebo *Open with Live Preview*). Otvorí sa živý náhľad, ktorý sa sám obnovuje.
-4. **Postupuj podľa predmetu** — začni **Blokom 6**.
+Osobné portfólio Patrika Paľa. Miesto pre výber digitálnych konceptov, nápadov a tvorby — s dôrazom na premyslený dizajn, výrazné detaily a dobrý používateľský zážitok.
 
 ## Čo tu nájdeš
 
-| Súbor / priečinok | Na čo je |
-| ----------------- | -------- |
-| `index.html` | Tvoja hlavná stránka — jej **obsah** (zatiaľ len úvodná — čoskoro ju nahradíš svojím portfóliom). |
-| `styles.css` | **Vzhľad** stránky — farby, písmo, rozloženie (vrstva CSS). |
-| `docs/` | Sem sa uloží tvoj **style guide** (dizajnová referencia z Bloku 6) a neskôr tvoj **design brief** (`zadanie-webu.md`, Blok 11). |
-| `img/` | Sem si budeš dávať **obrázky a fotky** (napr. do portfólia v Bloku 7). |
-| `.gitignore` | Hovorí gitu, čo sa **nikdy** nesmie zverejniť — napríklad súbor `.env` s tajnými kľúčmi. |
+- **Projekty** — výber konceptov z oblasti webového, produktového a vizuálneho dizajnu.
+- **O mne** — pár slov o tom, ako pristupujem k nápadom a digitálnej tvorbe.
+- **Kontakt** — priestor na nový nápad alebo spoluprácu.
 
-> **Poznámka:** Nemusíš rozumieť každému súboru. Dôležité je vedieť, že **`index.html` je tvoja stránka** a **do `img/` patria obrázky**. Zvyšok za teba spraví AI.
+## Vizuálny štýl
 
-## Dôležité o bezpečnosti
+Tmavé pozadie, jemná mriežka a neónové tyrkysové a ružové akcenty dávajú stránke technický charakter. Výrazná typografia a jednoduché geometrické prvky nechávajú vyniknúť samotný obsah.
 
-Tento projekt bude časom **verejný** (aby si web mohol dať online). Preto sem **nikdy nedávaj skutočné heslá ani platobné kľúče**. V kurze používame len bezcenné cvičné kľúče — viac v znalostnej báze *Bezpečnosť kľúčov*.
+## Technológie
+
+Stránka je vytvorená pomocou HTML, CSS a JavaScriptu bez ďalších knižníc.
+
+## Kontakt
+
+[patrikpalo@gmail.com](mailto:patrikpalo@gmail.com)
